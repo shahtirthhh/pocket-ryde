@@ -4,7 +4,7 @@ import { Text, View } from "react-native";
 const Home = () => {
   return (
     <View>
-      <Text className="text-black">Home</Text>
+      <Text className="text-black">Homescreen</Text>
     </View>
   );
 };
