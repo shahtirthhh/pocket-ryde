@@ -13,7 +13,8 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.shahtirthhj.uberclone"
     },
     "android": {
       "adaptiveIcon": {
@@ -26,11 +27,18 @@
       "output": "static",
       "favicon": "./assets/images/favicon.png"
     },
-    "plugins": [
-      "expo-router"
-    ],
+    "plugins": ["expo-router"],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "cb75c354-2294-4dfe-992b-7b7263e30246"
+      }
+    },
+    "owner": "shahtirthhj"
   }
 }
